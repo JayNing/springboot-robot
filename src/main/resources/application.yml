@@ -1,8 +1,10 @@
+  #配置根目录页面
 server:
   port: 8080
   session-timeout: 30
   tomcat.max-threads: 0
   tomcat.uri-encoding: UTF-8
+
 spring:
   datasource:
     url : jdbc:mysql://localhost:3306/robot?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
